@@ -61,11 +61,6 @@
     <ProjectReference Include="..\..\src\CommunityToolkit.Maui.MediaElement\CommunityToolkit.Maui.MediaElement.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <MauiXaml Update="Pages\Views\MediaElementPage.xaml">
-      <SubType></SubType>
-    </MauiXaml>
-  </ItemGroup>
   <PropertyGroup Condition="$(TargetFramework.Contains('-android'))">
     <RuntimeIdentifiers>android-arm;android-arm64;android-x86;android-x64</RuntimeIdentifiers>
   </PropertyGroup>
